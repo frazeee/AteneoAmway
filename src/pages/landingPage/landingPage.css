@@ -1,0 +1,13 @@
+body {
+    background-image: url(../../images/background.png); 
+    background-size: cover;
+    color: white;
+  }
+  
+.header{
+    font-size: 3.5em;
+}
+
+.container-spacing{
+    margin-top: 200px;
+}
