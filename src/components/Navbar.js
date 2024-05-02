@@ -42,7 +42,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item mx-3">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="/login">
                 Login
               </a>
             </li>
