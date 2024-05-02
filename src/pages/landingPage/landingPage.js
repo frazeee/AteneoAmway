@@ -1,6 +1,21 @@
 import "./landingPage.css";
 import Navbar from "../../components/Navbar";
 import Marquee from "react-fast-marquee";
+import Achievers from "../../images/marqueeLogos/achievers.png";
+import Artstudio from "../../images/marqueeLogos/artstudio.png";
+import GHLogo from "../../images/marqueeLogos/GH-logo.png";
+import Nutrilite from "../../images/marqueeLogos/nutrilite.png";
+import Satinique from "../../images/marqueeLogos/satinique.png";
+import XSLogo from "../../images/marqueeLogos/xs.png";
+
+const imageData = [
+  { src: Achievers, alt: "Achievers Logo" },
+  { src: Artstudio, alt: "Artstudio Logo" },
+  { src: GHLogo, alt: "GH Logo" },
+  { src: Nutrilite, alt: "Nutrilite Logo" },
+  { src: Satinique, alt: "Satinique Logo" },
+  { src: GHLogo, alt: "GH Logo" },
+];
 
 const LandingPage = () => {
   return (
@@ -23,13 +38,15 @@ const LandingPage = () => {
             <h1>IMAGE HERE</h1>
           </div>
         </div>
-        <div className="container-spacing pt-5">
-          <h1 className="text-center">Partnered With</h1>
-          <Marquee>
-          <p className="mx-5">Testing</p>
+      </div>
+      <div className="container-spacing py-5 d-flex flex-column">
+          <h1 className="text-center py-3">Partnered With</h1>
+          <Marquee style={{width:"98vw"}} className="mx-auto">
+            {imageData.map((image, index) => (
+              <img key={index} src={image.src} alt={image.alt} className="img-fluid mx-5" width={150} height={150} />
+            ))}
           </Marquee>
         </div>
-      </div>
     </div>
   );
 };
