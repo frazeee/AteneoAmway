@@ -9,19 +9,21 @@ const educationPage = () => {
   return (
     <>
       <Navbar />
-      <section>
-        <h1>YOUR PARTNER TO SUCCESS</h1>
-        <p>
-          Amwayᵀᴹ Education is committed to helping you grow your business
-          quickly and effectively through boosting leadership, sales, and
-          innovation.
-        </p>
-        <button type="button" class="btn btn-secondary">
-          Learn More
-        </button>
-      </section>
+      <section class="educHero" id="educHero">
+  <div class="educContent">
+    <h1>YOUR PARTNER TO SUCCESS</h1>
+    <p>
+      Amwayᵀᴹ Education is committed to helping you grow your business quickly
+      and effectively through boosting leadership, sales, and innovation.
+    </p>
+    <button type="button" class="btn btn-secondary my-3">
+    Learn More
+  </button>
+  </div>
+  
+</section>
 
-      <div class="container">
+      <div class="container my-5">
         <div class="row">
           <div class="col-12 col-lg-6 col-md-12 col-sm-12">
             <img />
@@ -40,7 +42,7 @@ const educationPage = () => {
         </div>
       </div>
 
-      <div class="container">
+      <div class="container my-5">
         <div class="row">
           <div class="col-12 col-lg-6 col-md-12 col-sm-12">
             <h1>Empower yourself, empower your business</h1>
@@ -52,14 +54,19 @@ const educationPage = () => {
               Get Started
             </button>
           </div>
-          <div class="col-12 col-lg-6 col-md-12 col-sm-12"></div>
+          <div class="col-12 col-lg-6 col-md-12 col-sm-12">
+
+          </div>
         </div>
       </div>
 
-      <div class="container">
+      <div class="container my-5">
         <div class="row">
           <div class="col-12 col-lg-6 col-md-12 col-sm-12">
-            <h1>Anytime, anywhere</h1>
+            
+          </div>
+          <div class="col-12 col-lg-6 col-md-12 col-sm-12">
+          <h1>Anytime, anywhere</h1>
             <p>
               Amwayᵀᴹ gives you total freedom and flexibility. Our courses are
               always online, easy access from your fingertips.
@@ -68,11 +75,10 @@ const educationPage = () => {
               Get Started
             </button>
           </div>
-          <div class="col-12 col-lg-6 col-md-12 col-sm-12"></div>
         </div>
       </div>
 
-      <div className="container">
+      <div className="container my-5">
     <div className="row">
         <div className="col-12 col-lg-6">
             <img src={leftImage} style={{ width: '600px', height: '300px' }} />
