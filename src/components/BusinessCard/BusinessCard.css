@@ -1,0 +1,51 @@
+@import '/src/constants/global-styles.css';
+
+.Bcard{
+  width: 390px;
+  height: 500px;
+  /* height: auto; */
+  /* border: 3px solid white; */
+}
+.BcardBody {
+  background: var(--cardBG);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  /* -webkit-backdrop-filter: blur(5px); */
+  border: var(--cardBorder);
+  color:white !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Bcard-body{
+  /* width: 100%; */
+  /* border:  1px solid white; */
+  height: 150px;
+  /* overflow-x: auto; */
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.Bcard-img-top{
+  margin-top: 20px;
+  height: 250px;
+  width: 100%;
+  object-fit: contain;
+  /* border:  1px solid white; */
+}
+.Bcard-title{
+  height: auto;
+  font-weight: bolder;
+  font-size: 28px;
+  width: 100%;
+  /* border: 1px solid white; */
+}
+.Bcard-text{
+  text-align: center;
+  width: 90%;
+  /* border: 1px solid white; */
+}
