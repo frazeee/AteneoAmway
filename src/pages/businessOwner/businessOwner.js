@@ -60,7 +60,7 @@ const businessOwner = () => {
               title="NUTRILITE Garlic Tablet"
               descHead = "SUPPORT YOUR CARDIOVASCULAR SYSTEM - "
               desc="Helps maintain already normal blood pressure and cholesterol levels, when used as part of a diet low in fat and cholesterol."
-              price= "999,999"
+              price= "1,575"
             />
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-4">
@@ -69,7 +69,7 @@ const businessOwner = () => {
               title="NUTRILITE Glucosamine Capsule"
               descHead="GLUCOSAMINE FOR FLEXIBILITY AND MOBILITY - "
               desc="Contains a combination of special extracts to promote healthy connective tissues and overall joint comfort."
-              price= "999,999"
+              price= "2,090"
             />
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-4">
@@ -78,7 +78,7 @@ const businessOwner = () => {
               title="NUTRILITE ClearGuard Tablet"
               descHead="CLEAR NASAL PASSAGES - "
               desc="This exclusive, natural formula helps support clear nasal passages in three days or less. Enjoy what life has to fully offer without stuffy noses."
-              price= "999,999"
+              price= "3,170"
             />
           </div>
         </div>
