@@ -29,7 +29,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item mx-3">
-              <Link className="nav-link active" aria-current="page" >
+              <Link to={LINKS.EDUCATION_PAGE} className="nav-link active" aria-current="page" >
                 Education
               </Link>
             </li>
