@@ -5,7 +5,7 @@ body {
 }
 
 
-.card {
+.card-styling {
   background: rgba(0, 47, 95, 0.61);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);

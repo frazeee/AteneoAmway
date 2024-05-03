@@ -7,7 +7,7 @@ const LoginPage = () => {
       <div className="row w-100">
         <div className="col-sm-8 col-md-8 col-lg-6 col-xl-5 mx-auto">
           {" "}
-          <div className="card align-middle">
+          <div className="card card-styling align-middle">
             <div className="card-body">
               <a href="/">
                 <img src={headerLogo} className="py-2 mx-auto d-block" />
