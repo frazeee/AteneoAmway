@@ -1,3 +1,5 @@
+@import '/src/constants/global-styles.css';
+
 .Bcard{
   width: 390px;
   height: 500px;
@@ -5,12 +7,12 @@
   /* border: 3px solid white; */
 }
 .BcardBody {
-  background: radial-gradient(circle, rgba(0, 99, 197, 0.3) 0%, rgba(0,47,95,0.3) 100%);
+  background: var(--cardBG);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   /* -webkit-backdrop-filter: blur(5px); */
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: var(--cardBorder);
   color:white !important;
   display: flex;
   flex-direction: column;
