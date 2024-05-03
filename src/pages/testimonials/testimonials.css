@@ -1,0 +1,93 @@
+body {
+    background-image: url(../../images/background.png);
+    background-size: cover;
+    color: white;
+}
+
+.header {
+    font-size: 6em;
+    text-align: center;
+}
+
+.cont-head{
+    margin-top: 200px;
+    margin-bottom: 500px;
+}
+
+.subtitle{
+    text-align: center;
+    width: 80%;
+}
+
+.subheading {
+    font-size: 3em;
+}
+
+.sub-desc{
+    font-size: 20px;
+    width: 100%;
+    text-align: justify;
+    text-align-last: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 0px 300px 0px 300px;
+}
+
+.cont-vid{
+    display: flex;
+    justify-content: center;
+}
+
+.vid-frame{
+    box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    width: 1280px;
+    height: 720px;
+}
+
+.cont-card{
+    height: 30vh;
+}
+
+.cont-card2{
+    height: 30vh;
+    
+}
+
+.card-title{
+    opacity: 50%;
+    font-weight: normal;
+}
+
+.card-desc{
+    margin-top: 20px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.dbAsset{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+.dbPics1{
+    width: 300px;
+}
+
+.dbPics2{
+    width: 300px;
+}
+
+.dbPics3{
+    width: 250px;
+    margin-top: 50px;
+}
+
+.card-desc2{
+    margin-top: 100px;
+    font-weight: normal;
+    text-align: center;
+    justify-content: center;
+    width: 400px;
+}
