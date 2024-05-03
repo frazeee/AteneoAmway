@@ -1,9 +1,32 @@
+.card{
+  width: 390px;
+  height: 600px;
+  /* height: auto; */
+  /* border: 3px solid white; */
+}
 .cardBody {
   background: rgba(0, 47, 95, 0.61);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(0, 47, 95, 0.3);
-  color:white !important
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color:white !important;
+}
+.card-body{
+  /* width: 100%; */
+  border:  1px solid white;
+  height: auto;
+  /* overflow-x: auto; */
+}
+.card-img-top{
+  height: auto;
+  width: 100%;
+}
+.card-title{
+  font-weight: bolder;
+  font-size: x-large;
+  margin-top: 10px;
+  width: 100%;
+  border:  1px solid white;
 }
