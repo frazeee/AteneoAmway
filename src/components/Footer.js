@@ -9,11 +9,11 @@ const Footer = () => {
           <div class="col-md-12 text-left">
             <div class="copyright">
               <img className="logo pb-1" src={CodeBrew}></img>
-              <a href="#" class="transition mx-1 fw-bold" style={{ textDecoration: "none", color: "#E4FDE2" }}>
+              <a href="#" class="transition mx-1 fw-md" style={{ textDecoration: "none", color: "#E4FDE2" }}>
                 {" "}
-                CodeBrew
+                ©Copyright 2024 <b>CodeBrew</b> 
               </a>{" "}
-              | all rights reserved.
+              | All rights reserved.
             </div>
           </div>
         </div>
