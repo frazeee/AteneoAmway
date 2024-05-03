@@ -48,7 +48,7 @@ const LandingPage = () => {
               </h5>
             </div>
             <Link to={LINKS.LOGIN} className="btn btn-primary mt-4">
-              Register Now
+              Register now
             </Link>
           </div>
           <div className="col-lg-4">
