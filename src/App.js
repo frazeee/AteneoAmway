@@ -4,8 +4,8 @@ import LandingPage from "./pages/landingPage/landingPage";
 import BusinessOwner from "./pages/businessOwner/businessOwner";
 import LoginPage from "./pages/loginPage/loginPage";
 import DashboardCc from "./pages/dashboard/dashboardCc"
-import AboutUs from "./pages/aboutUs/aboutUs";
 import EducationPage from "./pages/educationPage/educationPage";
+import AboutUs from "./pages/aboutUs/aboutUs";
 
 
 function App() {
@@ -17,8 +17,8 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/businessowners" element={<BusinessOwner />} />
           <Route path="/dashboard" element={<DashboardCc />} />
-          <Route path="/about" element={<AboutUs />} />
           <Route path="/educationPage" element={<EducationPage />} />
+          <Route path="/about" element={<AboutUs />} />
         </Routes>
       </Router>
     </>
