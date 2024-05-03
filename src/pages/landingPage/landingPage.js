@@ -7,6 +7,11 @@ import GHLogo from "../../images/marqueeLogos/GH-logo.png";
 import Nutrilite from "../../images/marqueeLogos/nutrilite.png";
 import Satinique from "../../images/marqueeLogos/satinique.png";
 import XSLogo from "../../images/marqueeLogos/xs.png";
+import { Link } from "react-router-dom";
+import { LINKS } from "../../constants/global-routes";
+
+import amwaypeople from "../../images/AmwayPeople.png";
+
 
 const imageData = [
   { src: Achievers, alt: "Achievers Logo" },
@@ -23,7 +28,7 @@ const LandingPage = () => {
       <Navbar />
       <div className="container container-spacing">
         <div className="row">
-          <div className="col-lg-8">
+          <div className="col-lg-8 p-5">
             <h1 className="fw-bolder header">BE IN BUSINESS YOURSELF,</h1>
             <h1 className="fw-bolder header">BUT NEVER BY YOURSELF</h1>
             <div className="mt-3">
@@ -32,10 +37,10 @@ const LandingPage = () => {
                 Create financial freedom and make a positive impact.
               </h5>
             </div>
-            <button className="btn btn-primary mt-4">Register Now</button>
+            <Link to={LINKS.LOGIN} className="btn btn-primary mt-4">Register Now</Link>
           </div>
           <div className="col-lg-4">
-            <h1>IMAGE HERE</h1>
+            <img src={amwaypeople} alt="AmwaysPeople"/>
           </div>
         </div>
       </div>

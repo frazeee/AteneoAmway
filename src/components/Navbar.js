@@ -1,13 +1,15 @@
 import './Navbar.css'
 import HeaderImage from "../images/headerLogo.png";
+import { Link } from 'react-router-dom';
+import { LINKS } from '../constants/global-routes';
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark mt-3">
       <div className="container-fluid">
-        <a className="navbar-brand ms-3" href="#">
+        <Link to={LINKS.LANDING} className="navbar-brand ms-3" href="#">
           <img src={HeaderImage}></img>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -32,9 +34,9 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item mx-3">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link to={LINKS.BUSINESS_OWNERS} className="nav-link active" aria-current="page" href="#">
                 Business Owners
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-3">
               <a className="nav-link active" aria-current="page" href="#">
