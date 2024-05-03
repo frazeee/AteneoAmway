@@ -1,0 +1,134 @@
+body {
+    background-image: url(../../images/background.png); 
+    background-size: cover;
+    color: white;
+}
+  
+.header{
+    font-size: 3.5em;
+}
+
+.container-spacing{
+    margin-top: 50px;
+}
+
+.cardo-up{
+    height: 30vh;
+    margin-top: 40px;
+    color: white;
+    border-color: rgb(21, 65, 108);
+    background-color: #00305f6c;
+}
+
+.cardo-down{
+    height: 30vh;
+    margin-top: 20px;
+    color: white;
+    border-color: rgb(21, 65, 108);
+    background-color: #00305f6c;
+}
+
+.cardo-dalisay{
+    height: 62.4vh;
+    margin-top: 40px;
+    margin-left: -25px;
+    color: white;
+    border-color: rgb(21, 65, 108);
+    background-color: #00305f6c;
+}
+
+.cardo-chart{
+    height: 62.4vh;
+    margin-top: 100px;
+    color: white;
+    border-color: rgb(21, 65, 108);
+    background-color: #00305f6c;
+}
+
+.cardo-members{
+    height: 30vh;
+    margin-top: 100px;
+    margin-left: -12px;
+    color: white;
+    border-color: rgb(21, 65, 108);
+    background-color: #00305f6c;
+}
+
+.cardo-subscriptions{
+    height: 30vh;
+    margin-top: 20px;
+    margin-left: -12px;
+    color: white;
+    border-color: rgb(21, 65, 108);
+    background-color: #00305f6c;
+}
+
+.card-title{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.textQuant{
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-left: 20px;  
+}
+
+.textPercent{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 20px;
+    color: #00B728;
+}
+
+.dbAsset{
+    position: absolute;
+    margin-left: 300px;
+}
+
+.dbAssetChart{
+    margin-top: 80px;
+    margin-left: -5px;
+}
+
+.head{
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.desc{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item{
+    margin-right: 80px;
+}
+
+.nav-item:last-child{
+    margin-right: 0;
+}
+
+.nav-link{
+    color: white;
+    font-size: 24px;
+}
+
+.product-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

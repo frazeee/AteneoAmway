@@ -58,23 +58,21 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-
       <div className="container-spacing py-5 d-flex flex-column">
         <h1 className="text-center py-3">Partnered With</h1>
-        <Marquee style={{ width: "98vw" }} className="mx-auto">
+        <Marquee style={{ width: "1320px" }} className="mx-auto">
           {imageData.map((image, index) => (
             <img
               key={index}
               src={image.src}
               alt={image.alt}
               className="img-fluid mx-5"
-              width={150}
-              height={150}
+              width={90}
+              height={120}
             />
           ))}
         </Marquee>
       </div>
-
       <div className="container section-spacing">
         <div className="row">
           <div className="col-lg-7">
