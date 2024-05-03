@@ -13,7 +13,7 @@ import Navbar from "../../components/Navbar-logged";
 import Marquee from "react-fast-marquee";
 
 import ProductNavBar from "../../components/ProductNavBar/ProductNavBar";
-import Product from "../../components/Product/Product";
+import Product from "../../components/product/Product";
 import garlic from "../../images/garlic.png";
 import glucosamine from "../../images/glucosamine.png";
 import clearGuard from "../../images/clearGuard.png";
