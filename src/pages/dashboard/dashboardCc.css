@@ -2,6 +2,13 @@ body {
     background-image: url(../../images/background.png); 
     background-size: cover;
     color: white;
+    overflow: overlay; /* Scrollbar */
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+    display: none;
 }
   
 .header{
@@ -107,6 +114,7 @@ body {
     margin-bottom: 60px;
 }
 
+<<<<<<< Updated upstream
 .nav{
     list-style: none;
     margin: 0;
@@ -132,3 +140,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+=======
+.head2{
+    font-size: 70px;
+    font-weight: bolder;
+    margin-bottom: -150px;
+}
+>>>>>>> Stashed changes
