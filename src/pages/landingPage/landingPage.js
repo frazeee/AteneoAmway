@@ -74,7 +74,7 @@ const LandingPage = () => {
       </div>
       <div className="container section-spacing">
         <div className="row">
-          <div className="col-lg-7">
+          <div className="col-lg-7 pixdesc">
             <h1 className="fw-bolder header">START YOUR OWN</h1>
             <div className="mt-3">
               <h5 className="subtitle fw-normal">
@@ -89,8 +89,7 @@ const LandingPage = () => {
           <div className="col-lg-5">
             <img
               src={StartNow}
-              height={400}
-              className="img-fluid w-100"
+              className="img-fluid w-100 landpix"
               alt="AmwaysPeople"
             />
           </div>
@@ -100,12 +99,11 @@ const LandingPage = () => {
           <div className="col-lg-5">
             <img
               src={Ambassador}
-              height={400}
-              className=" img-fluid w-100"
+              className=" img-fluid w-100 landpix"
               alt="AmwaysPeople"
             />
           </div>
-          <div className="col-lg-7">
+          <div className="col-lg-7 pixdesc">
             <h1 className="fw-bolder header">BECOME AN AMBASSADOR</h1>
             <div className="mt-3">
               <h5 className="subtitle fw-normal">
@@ -198,13 +196,13 @@ const LandingPage = () => {
 
       <CommunityMarquee />
 
-      <div className="container mt-5">
-        <div class="card cta-style w-100 container d-flex flex-column justify-content-center align-items-center">
-          <div class="card-title subheading fw-bolder ms-3 my-3 text-center">
+      <div className="container mt-5 ">
+        <div class="card cta-style w-100 container d-flex flex-column justify-content-center align-items-center landbott">
+          <div class="fw-bolder text-center landbottregdesc">
             It's time to join thousands of entrepreneurs building their own
             businesses with Amway.
           </div>
-          <Link to={LINKS.LOGIN} className="btn btn-primary mt-4">
+          <Link to={LINKS.LOGIN} className="btn btn-primary landbottregbutt">
             Register Now
           </Link>
         </div>
