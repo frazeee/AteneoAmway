@@ -1,0 +1,20 @@
+#educHero {
+    background-image: url('https://images.inc.com/uploaded_files/image/1920x1080/getty_858111584_2000171120009280378_368738.jpg');
+    /* Adjust other background properties as needed */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    /* Add more styles as needed */
+    height: 700px;
+  }
+
+  .educHero {
+    position: relative; /* Required for absolute positioning */
+    height: 100vh; /* Ensures the section takes the full height of the viewport */
+  }
+  
+  .educContent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px; /* Optional: Add padding for better readability */
+  }
