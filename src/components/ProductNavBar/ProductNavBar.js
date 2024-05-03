@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ProductNavBar.css";
 
 const ProductNavBar = () => {
@@ -7,19 +8,19 @@ const ProductNavBar = () => {
         <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item mx-5 px-5">
-              <a className="nav-link active" aria-current="page" href="#">Nutrition</a>
+              <Link className="nav-link active" aria-current="page" >Nutrition</Link>
             </li>
             <li className="nav-item mx-5 px-5">
-              <a className="nav-link" href="#">Beauty</a>
+              <Link className="nav-link" >Beauty</Link>
             </li>
             <li className="nav-item mx-5 px-5">
-              <a className="nav-link" href="#">Home</a>
+              <Link className="nav-link" >Home</Link>
             </li>
             <li className="nav-item mx-5 px-5">
-              <a className="nav-link" href="#">Agriculture</a>
+              <Link className="nav-link" >Agriculture</Link>
             </li>
             <li className="nav-item mx-5 px-5">
-              <a className="nav-link" href="#">Personal Care</a>
+              <Link className="nav-link" >Personal Care</Link>
             </li>
           </ul>
         </div>

@@ -12,6 +12,7 @@ import vitaminC from "../../images/vitaminC.png";
 import manWithStore from "../../images/manWithStore.png";
 import peopleSpeaking from "../../images/peopleSpeaking.png";
 import ProductNavBar from "../../components/ProductNavBar/ProductNavBar";
+import {Ponzi, Ponzi1} from "../../components/Ponzi/ponzi";
 
 const businessOwner = () => {
   return (
@@ -83,9 +84,12 @@ const businessOwner = () => {
 
       <h1 class="text-center my-5"> HOW WILL YOU EARN</h1>
 
-      <div class="container cardBg my-5">
-        <div class="row my-5">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
+      <div class="container">
+        <div class="row">
+          <Ponzi
+          
+          />
+          {/* <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
             <img src={vitaminC} class="imgSize" />
             <h1>Amway</h1>
           </div>
@@ -96,13 +100,14 @@ const businessOwner = () => {
           <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
             <img src={peopleSpeaking} class="imgSize" />
             <h1>AES buy produce at AES price</h1>
-          </div>
+          </div> */}
         </div>
       </div>
       
-      <div class="container cardBg my-5">
-        <div class="row my-5">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
+      <div class="container">
+        <div class="row">
+          <Ponzi1/>
+          {/* <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
             <img src={manWithStore} class="imgSize" />
             <h1>ABO PRICEPHP 2,997</h1>
           </div>
@@ -118,7 +123,7 @@ const businessOwner = () => {
             <p>P2,997</p>
             <h5>AMPAY GROSS EARNING</h5>
             <p>P3,334</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

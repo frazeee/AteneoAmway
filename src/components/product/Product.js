@@ -11,7 +11,7 @@ const Product = ({ image, title, descHead, desc, price }) => {
         <b>{descHead}</b>{desc}
         </p>
         <div className="pricebuy">
-        <div className="pricze">₱{price}</div>
+        <div className="pricze">₱ {price}</div>
         <button className="buyProduct">Buy</button>
         </div>
       </div>
