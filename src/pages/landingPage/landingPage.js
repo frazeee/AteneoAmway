@@ -1,5 +1,6 @@
 import "./landingPage.css";
 import Navbar from "../../components/Navbar";
+import CommunityMarquee from "../../components/CommunityMarquee/lcommunityMarquee";
 import Marquee from "react-fast-marquee";
 import Commission from "../../images/landingPageCards/commission.png";
 import Bonuses from "../../images/landingPageCards/bonuses.png";
@@ -19,6 +20,8 @@ import amwaypeople from "../../images/AmwayPeople.png";
 import Community1 from "../../images/communityMarquee/community1.jpg";
 import Community2 from "../../images/communityMarquee/community2.jpg";
 import Community3 from "../../images/communityMarquee/community3.jpg";
+import Community4 from "../../images/communityMarquee/community4.jpg";
+import Community5 from "../../images/communityMarquee/community5.jpg";
 
 const imageData = [
   { src: Achievers, alt: "Achievers Logo" },
@@ -45,7 +48,7 @@ const LandingPage = () => {
               </h5>
             </div>
             <Link to={LINKS.LOGIN} className="btn btn-primary mt-4">
-              Register Now
+              Register now
             </Link>
           </div>
           <div className="col-lg-4">
@@ -67,8 +70,8 @@ const LandingPage = () => {
               src={image.src}
               alt={image.alt}
               className="img-fluid mx-5"
-              width={90}
-              height={120}
+              width={170}
+              height={150}
             />
           ))}
         </Marquee>
@@ -78,7 +81,7 @@ const LandingPage = () => {
           <div className="col-lg-7">
             <h1 className="fw-bolder header">START YOUR OWN</h1>
             <div className="mt-3">
-              <h5 className="subtitle">
+              <h5 className="subtitle fw-normal">
                 Amway offers a low-cost, flexible way to start your own
                 business. They provide training and support, plus a network of
                 fellow entrepreneurs, ensuring you have the necessary resources
@@ -99,7 +102,7 @@ const LandingPage = () => {
           <div className="col-lg-7">
             <h1 className="fw-bolder header">BECOME AN AMBASSADOR</h1>
             <div className="mt-3">
-              <h5 className="subtitle">
+              <h5 className="subtitle fw-normal">
                 Share your love for Amway products and the opportunity through
                 creative content. We'll support you in building an online
                 community and turning your passion into a business. Join a
@@ -116,7 +119,9 @@ const LandingPage = () => {
           <h1 className="fw-semibold subheading mb-3">Earn with Amway.</h1>
           <div className="col-lg-4">
             <div class="card card-style container">
-              <div class="card-title ms-3 my-3 title-opacity">Commission</div>
+              <div class="card-title ms-3 my-3 title-opacity fw-semibold">
+                Commission
+              </div>
               <img
                 src={Commission}
                 className="position-absolute w-75"
@@ -139,7 +144,7 @@ const LandingPage = () => {
           </div>
           <div className="col-lg-4">
             <div class="card card-style container">
-              <div class="card-title ms-3 my-3 title-opacity">
+              <div class="card-title ms-3 my-3 title-opacity fw-semibold">
                 Performance Bonuses
               </div>
               <img
@@ -161,7 +166,9 @@ const LandingPage = () => {
           </div>
           <div className="col-lg-4">
             <div class="card card-style container">
-              <div class="card-title ms-3 my-3 title-opacity">Incentives</div>
+              <div class="card-title ms-3 my-3 title-opacity fw-semibold">
+                Incentives
+              </div>
               <img
                 src={Incentives}
                 className="position-absolute w-75"
@@ -183,45 +190,7 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div className="container section-spacing">
-        <h1 className="fw-bolder subheading mb-3">
-          Join a thriving community.
-        </h1>
-      </div>
-      <div className="community-section">
-        <Marquee style={{ height: "700px" }}>
-          <div>
-            <img
-              src={Community3}
-              className="rounded mb-5"
-              alt="Amway Community"
-              style={{ maxHeight: "550px" }}
-            />
-          </div>
-
-          <div class="d-flex flex-column mx-3">
-            <div class="h-100">
-              <div class="card text-center community-card container d-flex flex-column justify-content-center align-items-center">
-                <div class="card-title mt-3">
-                  <h1 className="subheading">#1</h1>{" "}
-                  <h3>
-                    2023 Direct Selling <p>Global 100</p>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div class="h-100">
-              <div class=" community-card ">
-                <img
-                  src={Community1}
-                  className="w-100 h-100 rounded"
-                  style={{ objectFit: "cover" }}
-                />
-              </div>
-            </div>
-          </div>
-        </Marquee>
-      </div>
+      <CommunityMarquee />
 
       <div className="container mt-5">
         <div class="card card-style container d-flex flex-column justify-content-center align-items-center">
