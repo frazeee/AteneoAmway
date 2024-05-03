@@ -1,0 +1,11 @@
+.copyright p span {
+    color: #d1caca;
+}
+
+.bottom .copyright p, .bottom .copyright a:hover{
+    color: #e4fde27b;
+}
+
+.logo {
+    height: 4vh;
+}
