@@ -18,3 +18,8 @@
     left: 0;
     padding: 20px; /* Optional: Add padding for better readability */
   }
+
+  .btn-primary{
+    background-color: #002F5F;
+    border-color: transparent;
+}

@@ -113,4 +113,10 @@ body {
   /* background-position-y: -100px; */
   background-blend-mode:soft-light;
   border: var(--cardBorder);
+
+}
+
+.btn-primary{
+  background-color: #002F5F;
+  border-color: transparent;
 }
