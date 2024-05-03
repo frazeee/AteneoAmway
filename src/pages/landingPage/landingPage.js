@@ -12,16 +12,12 @@ import GHLogo from "../../images/marqueeLogos/GH-logo.png";
 import Nutrilite from "../../images/marqueeLogos/nutrilite.png";
 import Satinique from "../../images/marqueeLogos/satinique.png";
 import XSLogo from "../../images/marqueeLogos/xs.png";
+import StartNow from "../../images/landingPageCards/StartNow.png"
+import Ambassador from "../../images/landingPageCards/Ambassador.png"
 import { Link } from "react-router-dom";
 import { LINKS } from "../../constants/global-routes";
 
 import amwaypeople from "../../images/AmwayPeople.png";
-
-import Community1 from "../../images/communityMarquee/community1.jpg";
-import Community2 from "../../images/communityMarquee/community2.jpg";
-import Community3 from "../../images/communityMarquee/community3.jpg";
-import Community4 from "../../images/communityMarquee/community4.jpg";
-import Community5 from "../../images/communityMarquee/community5.jpg";
 
 const imageData = [
   { src: Achievers, alt: "Achievers Logo" },
@@ -29,14 +25,14 @@ const imageData = [
   { src: GHLogo, alt: "GH Logo" },
   { src: Nutrilite, alt: "Nutrilite Logo" },
   { src: Satinique, alt: "Satinique Logo" },
-  { src: GHLogo, alt: "GH Logo" },
+  { src: XSLogo, alt: "Xs Logo" },
 ];
 
 const LandingPage = () => {
   return (
     <div className="bg">
       <Navbar />
-      <div className="container container-spacing">
+      <div className="container hero-spacing">
         <div className="row">
           <div className="col-lg-8 p-5">
             <h1 className="fw-bolder header">BE IN BUSINESS YOURSELF,</h1>
@@ -91,13 +87,23 @@ const LandingPage = () => {
             </div>
           </div>
           <div className="col-lg-5">
-            <h1>IMAGE HERE</h1>
+            <img
+              src={StartNow}
+              height={400}
+              className="img-fluid w-100"
+              alt="AmwaysPeople"
+            />
           </div>
         </div>
 
         <div className="row section-spacing">
           <div className="col-lg-5">
-            <h1>IMAGE HERE</h1>
+            <img
+              src={Ambassador}
+              height={400}
+              className=" img-fluid w-100"
+              alt="AmwaysPeople"
+            />
           </div>
           <div className="col-lg-7">
             <h1 className="fw-bolder header">BECOME AN AMBASSADOR</h1>
@@ -193,11 +199,14 @@ const LandingPage = () => {
       <CommunityMarquee />
 
       <div className="container mt-5">
-        <div class="card card-style container d-flex flex-column justify-content-center align-items-center">
-          <div class="card-title header fw-bolder ms-3 my-3 text-center">
+        <div class="card cta-style w-100 container d-flex flex-column justify-content-center align-items-center">
+          <div class="card-title subheading fw-bolder ms-3 my-3 text-center">
             It's time to join thousands of entrepreneurs building their own
             businesses with Amway.
           </div>
+          <Link to={LINKS.LOGIN} className="btn btn-primary mt-4">
+            Register Now
+          </Link>
         </div>
       </div>
     </div>
