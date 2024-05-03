@@ -12,6 +12,15 @@ import Subscriptions from "../../images/dashboard/subscriptions.png";
 import Navbar from "../../components/Navbar-logged";
 import Marquee from "react-fast-marquee";
 
+import ProductNavBar from "../../components/ProductNavBar/ProductNavBar";
+import Product from "../../components/product/Product";
+import garlic from "../../images/garlic.png";
+import glucosamine from "../../images/glucosamine.png";
+import clearGuard from "../../images/clearGuard.png";
+
+import { LINKS } from "../../constants/global-routes";
+import { Link } from "react-router-dom";
+
 const DashboardCc = () => {
   return (
     <div className="bg">
@@ -133,22 +142,140 @@ const DashboardCc = () => {
           </div>
         </div>
 
+        {/* Buy Products Section */}
         <div className="container-spacing pt-5">
           <h1 className="text-center head">Buy Products</h1>
           <h3 className="text-center desc">Restock your inventory and maximize your earning potential.</h3>
         </div>
 
-        <div class="cont product-list">
-          <ul class="nav">  <li class="nav-item"><a class="nav-link" href="#">Nutrition</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Beauty</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Agriculture</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Personal Care</a></li>
-          </ul>
+        {/* NAVBAR SHIT */}
+        <ProductNavBar/>
+        <div class="container my-5">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+            <Product
+              image={garlic}
+              title="NUTRILITE Garlic Tablet"
+              descHead = "SUPPORT YOUR CARDIOVASCULAR SYSTEM - "
+              desc="Helps maintain already normal blood pressure and cholesterol levels, when used as part of a diet low in fat and cholesterol."
+              price= "1,575"
+            />
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+            <Product
+              image={glucosamine}
+              title="NUTRILITE Glucosamine Capsule"
+              descHead="GLUCOSAMINE FOR FLEXIBILITY AND MOBILITY - "
+              desc="Contains a combination of special extracts to promote healthy connective tissues and overall joint comfort."
+              price= "2,090"
+            />
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+            <Product
+              image={clearGuard}
+              title="NUTRILITE ClearGuard Tablet"
+              descHead="CLEAR NASAL PASSAGES - "
+              desc="This exclusive, natural formula helps support clear nasal passages in three days or less. Enjoy what life has to fully offer without stuffy noses."
+              price= "3,170"
+            />
+          </div>
         </div>
-
       </div>
-    </div>
+
+          {/* Content Creator */}
+          <div class="container cardBg my-5">
+            <div class="row my-5">
+              <h1>APPLY AS</h1>
+              <h1>CONTENT CREATOR</h1>
+              <h3>Help Amway grow through</h3>
+              <h3>producing short form content.</h3>
+
+              <h3>Record a quick video of</h3>
+              <h3>yourself advertising our products.</h3>
+              <Link to={LINKS.LANDING} className="btn btn-primary mt-4">Register Now</Link>
+            </div>
+          </div>
+        
+          {/* Content Creator Section */}
+          <div className="container-spacing pt-5">
+            <h1 className="text-center head2">Content Creator Benefits</h1>
+          </div>
+
+          {/* CC Card */}
+          <div className="container section-spacing mb-5">
+            <div className="row">
+              <div className="col-lg-4">
+                <div
+                  class="card card-style container"
+                >
+                  <div class="card-title ms-3 my-3 title-opacity">MONTHLY BENEFITS</div>
+                  <img
+                    src={garlic}
+                    className="position-absolute w-75"
+                    height={320}
+                    style={{
+                      objectFit: "cover",
+                      zIndex: "-1",
+                      opacity: "0.8",
+                      marginLeft: "120px",
+                    }}
+                  />
+                  <div className="card-body mt-5">
+                    <div className="">
+                      <h3 className="w-75 mt-5">Montly supply</h3>
+                      <h3 className="w-75 ">of products</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div
+                  class="card card-style container"
+                >
+                  <div class="card-title ms-3 my-3 title-opacity">PERFORMANCE BONUSES</div>
+                  <img
+                    src={garlic}
+                    className="position-absolute w-75"
+                    style={{
+                      objectFit: "cover",
+                      zIndex: "-1",
+                      opacity: "0.8",
+                      marginLeft: "130px",
+                    }}
+                  />
+                  <div className="card-body mt-5">
+                    <h3 className="w-75 mt-5">Get views,</h3>
+                    <h3 className="w-75 ">get extra rewards!</h3>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div
+                  class="card card-style container"
+                >
+                  <div class="card-title ms-3 my-3 title-opacity">INCENTIVES</div>
+                  <img
+                    src={garlic}
+                    className="position-absolute w-75"
+                    height={320}
+                    style={{
+                      objectFit: "cover",
+                      zIndex: "-1",
+                      opacity: "0.8",
+                      marginLeft: "130px",
+                    }}
+                  />
+                  <div className="card-body mt-5">
+                    <h3 className="w-75 mt-5">Exclusive access</h3>
+                    <h3 className="w-75 ">to new products!</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </div>
   );
 };
 

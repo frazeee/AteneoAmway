@@ -10,7 +10,7 @@
   background: var(--cardBG);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
+  backdrop-filter: var(--cardBlur);
   /* -webkit-backdrop-filter: blur(5px); */
   border: var(--cardBorder);
   color:white !important;
@@ -21,6 +21,7 @@
 .Bcard-body{
   /* width: 100%; */
   /* border:  1px solid white; */
+  margin-bottom: 20px;
   height: 150px;
   /* overflow-x: auto; */
   padding: 10px;

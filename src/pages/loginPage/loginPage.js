@@ -1,5 +1,7 @@
 import "./loginPage.css";
 import headerLogo from "../../images/headerLogo.png";
+import { LINKS } from "../../constants/global-routes";
+import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   return (
@@ -51,9 +53,9 @@ const LoginPage = () => {
                     />
                   </div>
                   <div className="text-center mt-5">
-                    <button type="submit" className="btn btn-primary w-25 ">
+                    <Link to={LINKS.DASHBOARD} className="btn btn-primary w-25 ">
                       Sign In
-                    </button>
+                    </Link>
                     <p className="my-3 ">
                       <a href="#" className="link-primary ">
                         Forgot Password?
