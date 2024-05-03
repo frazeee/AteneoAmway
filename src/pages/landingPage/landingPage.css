@@ -11,3 +11,36 @@ body {
 .container-spacing{
     margin-top: 200px;
 }
+
+.section-spacing{
+    margin-top: 200px;
+}
+
+.section-spacing:nth-child(2){
+    margin-top: 300px;
+}
+
+.subtitle{
+    text-align: justify;
+}
+
+.card-style {
+    background: rgba(0, 47, 95, 0.61);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 47, 95, 0.3);
+    color: white;
+    overflow: hidden;
+    height: 320px;
+    margin-bottom: 50px;
+  }
+
+  .title-opacity{
+    opacity: 0.8;
+  }
+
+  .line-spacing{
+    margin-top: -15px;
+  }
