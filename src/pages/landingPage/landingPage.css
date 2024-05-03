@@ -73,7 +73,7 @@ body {
 
 
 .cta-style {
-  background: rgba(0, 47, 95, 0.61);
+  background: rgba(0, 48, 95, 0.78);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -113,6 +113,7 @@ body {
   /* background-position-y: -100px; */
   background-blend-mode:soft-light;
   border: var(--cardBorder);
+
 }
 
 .btn-primary{
