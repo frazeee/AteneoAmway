@@ -21,6 +21,7 @@
 .Bcard-body{
   /* width: 100%; */
   /* border:  1px solid white; */
+  margin-bottom: 20px;
   height: 150px;
   /* overflow-x: auto; */
   padding: 10px;
