@@ -1,5 +1,5 @@
 import "./businessOwner.css";
-import Product from "../../components/Product/Product";
+import Product from "../../components/product/Product";
 import BusinessCard from "../../components/BusinessCard/BusinessCard";
 import Money from "../../images/money.png";
 import Navbar from "../../components/Navbar";
@@ -18,23 +18,23 @@ const businessOwner = () => {
     <>
       <Navbar />
       <h1 class="text-center my-5"> OWN A BUSINESS OWNER</h1>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4">
             <BusinessCard
               image={Money}
               title="COMMISSION"
               desc="Through AmPay, you earn a 10% commission with every product you sell"
             />
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4">
             <BusinessCard
               image={Statistics}
               title="INCENTIVES & REWARDS"
               desc="When you reach certain milestones with us, you can achieve incentives and rewards on top of your commissions and performance bonuses"
             />
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4">
             <BusinessCard
               image={handOnGift}
               title="PERFORMANCE BONUSES"

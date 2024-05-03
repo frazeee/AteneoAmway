@@ -5,7 +5,7 @@
   /* border: 3px solid white; */
 }
 .cardBody {
-  background: rgba(7, 79, 151, 0.25);
+  background: radial-gradient(circle, rgba(0, 99, 197, 0.3) 0%, rgba(0,47,95,0.3) 100%);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
