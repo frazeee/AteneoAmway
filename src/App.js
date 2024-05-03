@@ -5,6 +5,7 @@ import BusinessOwner from "./pages/businessOwner/businessOwner";
 import LoginPage from "./pages/loginPage/loginPage";
 import DashboardCc from "./pages/dashboard/dashboardCc"
 import AboutUs from "./pages/aboutUs/aboutUs";
+import EducationPage from "./pages/educationPage/educationPage";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/businessowners" element={<BusinessOwner />} />
           <Route path="/dashboard" element={<DashboardCc />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/educationPage" element={<EducationPage />} />
         </Routes>
       </Router>
     </>
