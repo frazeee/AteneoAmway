@@ -1,0 +1,80 @@
+@import "/src/constants/global-styles.css";
+
+.ponzicard{
+    height: 400px;
+    background: var(--cardBG);
+    border: var(--cardBorder);
+    backdrop-filter: var(--cardBlur);
+    border-radius: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.ponzisection{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    /* border: 1px solid greenyellow; */
+}
+.ponziImg{
+    margin-top: 45PX;
+    height: 190px;
+    width: 100%;
+    object-fit: contain;
+    /* border: 1px solid cyan; */
+}
+
+/* ================================== texts */
+.ponziprice{
+    /* margin-top: 20px; */
+    text-align: center;
+    /* border: 1px solid white; */
+    font-size: 32px;
+    font-weight: 600;
+}
+.ponzitext1{
+    margin-top: 20px;
+    text-align: center;
+    /* border: 1px solid white; */
+    font-size: 18px;
+    font-weight: 600;
+}
+.ponzitext{
+    margin-top: 20px;
+    text-align: center;
+    /* border: 1px solid white; */
+    font-size: 24px;
+    font-weight: 600;
+}
+.ponziSubtext{
+    position: absolute;
+    bottom: 0;
+    color: rgba(255, 255, 255, 0.484);
+}
+.ponziprice1{
+    margin-top: -10px;
+    text-align: center;
+    /* border: 1px solid white; */
+    font-size: 24px;
+    font-weight: 600;
+}
+.ponzitext2{
+    margin-top: 5px;
+    text-align: center;
+    /* border: 1px solid white; */
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+/* =============================== misc */
+.arrowponzi{
+    /* border: 1px solid white; */
+    width: 100px;
+    object-fit: contain;
+}
+.vitaminc{
+    margin: 70px 0px 10px 0px;
+    height: 120px;
+}
