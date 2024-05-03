@@ -2,6 +2,13 @@ body {
     background-image: url(../../images/background.png); 
     background-size: cover;
     color: white;
+    overflow: overlay; /* Scrollbar */
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+    display: none;
 }
   
 .header{
