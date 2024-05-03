@@ -102,7 +102,7 @@ const DashboardCc = () => {
             <div class="container">
               <div class="row cols-2">
                 <div class="col">
-                  <div class="card cardo-chart">
+                  <div class="card w-100 cardo-chart">
                     <div class="card-body">
                       <h5 class="card-title">Overall Member Activity</h5>
                       <img className="dbAssetChart" src={Chart} width={750}></img>
