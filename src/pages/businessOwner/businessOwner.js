@@ -14,6 +14,8 @@ import peopleSpeaking from "../../images/peopleSpeaking.png";
 import ProductNavBar from "../../components/ProductNavBar/ProductNavBar";
 import {Ponzi, Ponzi1} from "../../components/Ponzi/ponzi";
 
+import Footer from "../../components/Footer";
+
 const businessOwner = () => {
   return (
     <>
@@ -92,11 +94,12 @@ const businessOwner = () => {
         </div>
       </div>
       
-      <div class="container mt-4">
+      <div class="container my-5">
         <div class="row">
           <Ponzi1/>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
