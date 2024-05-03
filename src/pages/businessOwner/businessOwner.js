@@ -1,5 +1,5 @@
 import "./businessOwner.css";
-import Product from "../../components/Product/Product";
+import Product from "../../components/product/Product";
 import BusinessCard from "../../components/BusinessCard/BusinessCard";
 import Money from "../../images/money.png";
 import Navbar from "../../components/Navbar";
