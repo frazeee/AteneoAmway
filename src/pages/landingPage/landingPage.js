@@ -1,5 +1,6 @@
 import "./landingPage.css";
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer"
 import CommunityMarquee from "../../components/CommunityMarquee/lcommunityMarquee";
 import Marquee from "react-fast-marquee";
 import Commission from "../../images/landingPageCards/commission.png";
@@ -207,6 +208,7 @@ const LandingPage = () => {
           </Link>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
