@@ -4,6 +4,7 @@ import LandingPage from "./pages/landingPage/landingPage";
 import BusinessOwner from "./pages/businessOwner/businessOwner";
 import LoginPage from "./pages/loginPage/loginPage";
 import DashboardCc from "./pages/dashboard/dashboardCc"
+import Testimonials from "./pages/testimonials/testimonials"
 
 
 function App() {
