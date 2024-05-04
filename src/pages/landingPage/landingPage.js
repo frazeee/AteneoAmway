@@ -43,7 +43,7 @@ const LandingPage = () => {
                 Create financial freedom and make a positive impact.
               </h5>
             </div>
-            <Link to={LINKS.LOGIN} className="btn btn-primary mt-4">
+            <Link to="https://www.amway.com.ph/ph/registration/businessowner" className="btn btn-primary mt-4">
               Register now
             </Link>
           </div>
