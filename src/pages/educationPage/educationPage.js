@@ -4,7 +4,6 @@ import Footer from "../../components/Footer";
 import leftImage from "../../images/leftCard.webp";
 import rightImage from "../../images/rightCard.webp";
 import heroBG from "../../images/educationHero.jpg";
-import lightAndMoney from "../../images/lightAndMoney.png";
 
 const educationPage = () => {
   return (

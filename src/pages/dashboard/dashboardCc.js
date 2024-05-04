@@ -4,14 +4,12 @@ import Total from "../../images/dashboard/mtotal.png";
 import Sold from "../../images/dashboard/psold.png";
 import Revenue from "../../images/dashboard/revenue.png";
 import Chart from "../../images/dashboard/chart.png";
-import Dropdown from "../../images/dashboard/dropdown.png";
 import Invoices from "../../images/dashboard/invoice.png";
 import Members from "../../images/dashboard/members.png";
 import Subscriptions from "../../images/dashboard/subscriptions.png";
 
 import Navbar from "../../components/Navbar-logged";
 import Footer from "../../components/Footer";
-import Marquee from "react-fast-marquee";
 
 import ProductNavBar from "../../components/ProductNavBar/ProductNavBar";
 import Product from "../../components/product/Product";

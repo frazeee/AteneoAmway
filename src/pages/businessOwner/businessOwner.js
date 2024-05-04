@@ -8,9 +8,6 @@ import handOnGift from "../../images/handOnGift.png";
 import garlic from "../../images/garlic.png";
 import glucosamine from "../../images/glucosamine.png";
 import clearGuard from "../../images/clearGuard.png";
-import vitaminC from "../../images/vitaminC.png";
-import manWithStore from "../../images/manWithStore.png";
-import peopleSpeaking from "../../images/peopleSpeaking.png";
 import ProductNavBar from "../../components/ProductNavBar/ProductNavBar";
 import {Ponzi, Ponzi1} from "../../components/Ponzi/ponzi";
 
