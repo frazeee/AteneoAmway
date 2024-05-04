@@ -1,6 +1,5 @@
 import "./landingPage.css";
 import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer"
 import CommunityMarquee from "../../components/CommunityMarquee/lcommunityMarquee";
 import Marquee from "react-fast-marquee";
 import Commission from "../../images/landingPageCards/commission.png";
@@ -36,8 +35,8 @@ const LandingPage = () => {
       <div className="container hero-spacing">
         <div className="row">
           <div className="col-lg-8 p-5">
-            <h1 className="fw-bolder header1">BE IN BUSINESS YOURSELF,</h1>
-            <h1 className="fw-bolder header1">BUT NEVER BY YOURSELF</h1>
+            <h1 className="fw-bolder header">BE IN BUSINESS YOURSELF,</h1>
+            <h1 className="fw-bolder header">BUT NEVER BY YOURSELF</h1>
             <div className="mt-3">
               <h5 className="subtitle">
                 Become an Amway Business Owner and unlock your full potential.
@@ -76,7 +75,7 @@ const LandingPage = () => {
       <div className="container section-spacing">
         <div className="row">
           <div className="col-lg-7 pixdesc">
-            <h1 className="fw-bolder header2">START YOUR OWN</h1>
+            <h1 className="fw-bolder header">START YOUR OWN</h1>
             <div className="mt-3">
               <h5 className="subtitle fw-normal">
                 Amway offers a low-cost, flexible way to start your own
@@ -105,7 +104,7 @@ const LandingPage = () => {
             />
           </div>
           <div className="col-lg-7 pixdesc">
-            <h1 className="fw-bolder header2">BECOME AN AMBASSADOR</h1>
+            <h1 className="fw-bolder header">BECOME AN AMBASSADOR</h1>
             <div className="mt-3">
               <h5 className="subtitle fw-normal">
                 Share your love for Amway products and the opportunity through
@@ -208,7 +207,6 @@ const LandingPage = () => {
           </Link>
         </div>
       </div>
-      <Footer/>
     </div>
   );
 };

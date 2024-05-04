@@ -8,10 +8,11 @@ import handOnGift from "../../images/handOnGift.png";
 import garlic from "../../images/garlic.png";
 import glucosamine from "../../images/glucosamine.png";
 import clearGuard from "../../images/clearGuard.png";
+import vitaminC from "../../images/vitaminC.png";
+import manWithStore from "../../images/manWithStore.png";
+import peopleSpeaking from "../../images/peopleSpeaking.png";
 import ProductNavBar from "../../components/ProductNavBar/ProductNavBar";
 import {Ponzi, Ponzi1} from "../../components/Ponzi/ponzi";
-
-import Footer from "../../components/Footer";
 
 const businessOwner = () => {
   return (
@@ -57,7 +58,7 @@ const businessOwner = () => {
               title="NUTRILITE Garlic Tablet"
               descHead = "SUPPORT YOUR CARDIOVASCULAR SYSTEM - "
               desc="Helps maintain already normal blood pressure and cholesterol levels, when used as part of a diet low in fat and cholesterol."
-              price= "1,575"
+              price= "999,999"
             />
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-4">
@@ -66,7 +67,7 @@ const businessOwner = () => {
               title="NUTRILITE Glucosamine Capsule"
               descHead="GLUCOSAMINE FOR FLEXIBILITY AND MOBILITY - "
               desc="Contains a combination of special extracts to promote healthy connective tissues and overall joint comfort."
-              price= "2,090"
+              price= "999,999"
             />
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-4">
@@ -75,7 +76,7 @@ const businessOwner = () => {
               title="NUTRILITE ClearGuard Tablet"
               descHead="CLEAR NASAL PASSAGES - "
               desc="This exclusive, natural formula helps support clear nasal passages in three days or less. Enjoy what life has to fully offer without stuffy noses."
-              price= "3,170"
+              price= "999,999"
             />
           </div>
         </div>
@@ -91,12 +92,11 @@ const businessOwner = () => {
         </div>
       </div>
       
-      <div class="container my-5">
+      <div class="container mt-4">
         <div class="row">
           <Ponzi1/>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
