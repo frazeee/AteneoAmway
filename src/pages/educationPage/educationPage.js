@@ -5,6 +5,7 @@ import leftImage from "../../images/leftCard.webp";
 import rightImage from "../../images/rightCard.webp";
 import heroBG from "../../images/educationHero.jpg";
 import lightAndMoney from "../../images/lightAndMoney.png";
+import { Link } from "react-router-dom";
 
 const educationPage = () => {
   return (
@@ -20,14 +21,19 @@ const educationPage = () => {
               quickly and effectively through boosting leadership, sales, and
               innovation.
             </p>
-            <button className="btn btn-primary">Learn More</button>
+            <Link
+              to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiI3MqHmvOFAxXxzDgGHcZcDk0QFnoECCIQAQ&url=https%3A%2F%2Fwww.amway.com%2Fen_US%2Famway-education&usg=AOvVaw32r7wcA6Z4JmHpevSTN8On&opi=89978449"
+              className="btn btn-primary"
+            >
+              Learn More
+            </Link>
           </div>
         </section>
 
         <section>
           <div className="container ">
             <div className="row container-spacing relcon">
-            <img src={lightAndMoney} className="lightnmoneyimg"/>
+              <img src={lightAndMoney} className="lightnmoneyimg" />
               <div className="col-lg-6 d-flex"></div>
               <div className="col-lg-6 d-flex">
                 <div className="my-auto">
@@ -73,7 +79,12 @@ const educationPage = () => {
                       fingertips.
                     </h5>
                     <div className="mt-3 d-flex justify-content-end">
-                      <button className="btn btn-primary">Learn More</button>
+                      <Link
+                        to="https://players.brightcove.net/1437117782001/HJSr7bMWb_default/index.html?videoId=4983462661001"
+                        className="btn btn-primary me"
+                      >
+                        Learn More
+                      </Link>
                     </div>
                   </div>
                 </div>
