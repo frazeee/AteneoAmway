@@ -36,8 +36,8 @@ const LandingPage = () => {
       <div className="container hero-spacing">
         <div className="row">
           <div className="col-lg-8 p-5">
-            <h1 className="fw-bolder header">BE IN BUSINESS YOURSELF,</h1>
-            <h1 className="fw-bolder header">BUT NEVER BY YOURSELF</h1>
+            <h1 className="fw-bolder header1">BE IN BUSINESS YOURSELF,</h1>
+            <h1 className="fw-bolder header1">BUT NEVER BY YOURSELF</h1>
             <div className="mt-3">
               <h5 className="subtitle">
                 Become an Amway Business Owner and unlock your full potential.
