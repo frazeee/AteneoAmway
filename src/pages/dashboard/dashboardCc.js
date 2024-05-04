@@ -17,6 +17,8 @@ import Product from "../../components/product/Product";
 import garlic from "../../images/garlic.png";
 import glucosamine from "../../images/glucosamine.png";
 import clearGuard from "../../images/clearGuard.png";
+import selfie from "../../images/dashboard/selfie.jpg";
+
 
 import { LINKS } from "../../constants/global-routes";
 import { Link } from "react-router-dom";
@@ -182,23 +184,19 @@ const DashboardCc = () => {
         </div>
       </div>
 
-          {/* Content Creator */}
-          <div class="container cardBg my-5">
-            <div class="row my-5">
-              <h1>APPLY AS</h1>
-              <h1>CONTENT CREATOR</h1>
-              <h3>Help Amway grow through</h3>
-              <h3>producing short form content.</h3>
-
-              <h3>Record a quick video of</h3>
-              <h3>yourself advertising our products.</h3>
-              <Link to={LINKS.LANDING} className="btn btn-primary mt-4">Register Now</Link>
+        {/* Content Creator */}
+        <div class="container cardBg my-5 applycont">
+          <div class="row applysubcont">
+            <div className="applyhead"> 
+            <div>APPLY AS</div>
+            <div>CONTENT CREATOR!</div>
             </div>
-          </div>
-        
-          {/* Content Creator Section */}
-          <div className="container-spacing pt-5">
-            <h1 className="text-center head2">Content Creator Benefits</h1>
+            <div className="applysub1">Help Amway grow through producing short form content.</div>
+            <div className="applysub2">Record a quick video of yourself advertising our products.</div>
+           
+            <Link to={LINKS.LANDING} className=" btn-primary applybutt">
+              Register Now
+            </Link>
           </div>
 
           {/* CC Card */}
