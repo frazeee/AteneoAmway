@@ -1,25 +1,61 @@
 import "./educationPage.css";
 import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
+import EducationCard from "../../components/EducationCard/EducationCard";
+import AmwayPeople from "../../images/AmwayPeople.png";
 import leftImage from "../../images/leftCard.webp";
 import rightImage from "../../images/rightCard.webp";
-import heroBG from "../../images/educationHero.jpg";
 import lightAndMoney from "../../images/lightAndMoney.png";
 import { Link } from "react-router-dom";
 
 const educationPage = () => {
   return (
     <>
-      <div className="bg">
-        <Navbar />
-        <section id="hero">
-          <img src={heroBG} className="img-fluid hero-section" />
-          <div className="container hero-text">
-            <p className="header fw-bold">Your Partner to Success</p>
-            <p className="hero-subheading">
-              Amwayᵀᴹ Education is committed to helping you grow your business
-              quickly and effectively through boosting leadership, sales, and
-              innovation.
+      <Navbar />
+      <section class="educHero" id="educHero">
+        <div class="educContent">
+          <h1>YOUR PARTNER TO SUCCESS</h1>
+          <p>
+            Amwayᵀᴹ Education is committed to helping you grow your business
+            quickly and effectively through boosting leadership, sales, and
+            innovation.
+          </p>
+          <button type="button" class="btn btn-secondary my-3">
+            Learn More
+          </button>
+        </div>
+      </section>
+
+      <div class="container my-5">
+  <div class="row">
+    <div class="col-12 col-lg-6 col-md-12 col-sm-12"></div>
+    <div class="col-12 col-lg-6 col-md-12 col-sm-12 text-end">
+      <div>
+        <h1>Learn from the best</h1>
+        <p>
+          Amwayᵀᴹ Education empowers you to reach your goals with courses
+          inspired by the achievements of successful Amway Business Owners
+          ABOs.
+        </p>
+        <button type="button" class="btn btn-secondary">
+          Watch How
+        </button>
+      </div>
+      <img
+        src={lightAndMoney}
+        style={{ width: "400px", height: "400px" }}
+        alt="Light and Money"
+      />
+    </div>
+  </div>
+</div>
+
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-12 col-lg-6 col-md-12 col-sm-12">
+            <h1>Empower yourself, empower your business</h1>
+            <p>
+              In five different languages, learn more about income generation,
+              marketing, and product development through our essential courses.
             </p>
             <Link
               to="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiI3MqHmvOFAxXxzDgGHcZcDk0QFnoECCIQAQ&url=https%3A%2F%2Fwww.amway.com%2Fen_US%2Famway-education&usg=AOvVaw32r7wcA6Z4JmHpevSTN8On&opi=89978449"
@@ -28,7 +64,7 @@ const educationPage = () => {
               Learn More
             </Link>
           </div>
-        </section>
+        </div>
 
         <section>
           <div className="container ">
@@ -94,7 +130,23 @@ const educationPage = () => {
         </section>
       </div>
 
-      <div className="container mb-5" style={{ marginTop: "150px" }}>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-12 col-lg-6 col-md-12 col-sm-12"></div>
+          <div class="col-12 col-lg-6 col-md-12 col-sm-12 text-end">
+            <h1>Anytime, anywhere</h1>
+            <p>
+              Amwayᵀᴹ gives you total freedom and flexibility. Our courses are
+              always online, easy access from your fingertips.
+            </p>
+            <button type="button" class="btn btn-secondary">
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className="container my-5">
         <div className="row">
           <div className="col-12 col-lg-6">
             <img src={leftImage} style={{ width: "600px", height: "300px" }} />
@@ -105,7 +157,8 @@ const educationPage = () => {
         </div>
       </div>
 
-      <Footer />
+      {/* <EducationCard title="Contact us for more" desc="Get started >"/>
+      <EducationCard title="Jumpstart your business with Amway" desc="Learn More >" image={AmwayPeople}/> */}
     </>
   );
 };

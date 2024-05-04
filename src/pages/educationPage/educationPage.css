@@ -1,8 +1,11 @@
-body {
-  background-image: url(../../images/background.png);
-  background-size: cover;
-  color: white;
-}
+#educHero {
+    background-image: url('../../images/educHero.jpg');
+    /* Adjust other background properties as needed */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    /* Add more styles as needed */
+    height: 700px;
+  }
 
 .header {
   font-size: 4.4vw;

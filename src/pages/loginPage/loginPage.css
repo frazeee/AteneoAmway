@@ -1,7 +1,9 @@
 body {
   background-image: url(../../images/background.png);
   background-size: cover;
+
 }
+
 
 .card-styling {
   background: rgba(0, 47, 95, 0.61);
@@ -12,14 +14,15 @@ body {
   border: 1px solid rgba(0, 47, 95, 0.3);
 }
 
-.card-container {
-  padding-inline: 25px;
+.card-container{
+    padding-inline: 25px;
 }
 
-form {
-  color: white;
+
+form{
+    color: white;
 }
 
 .form-input-bg {
-  background-color: transparent !important;
+    background-color: transparent !important;
 }
