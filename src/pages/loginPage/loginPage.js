@@ -5,11 +5,14 @@ import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   return (
-    <div className="bg container vh-100 d-flex align-items-center justify-content-center">
+    <div className="bg container  vh-100 d-flex align-items-center justify-content-center">
       <div className="row w-100">
         <div className="col-sm-8 col-md-8 col-lg-6 col-xl-5 mx-auto">
           {" "}
-          <div className="card card-styling align-middle">
+          <div
+            className="card card-styling mx-auto"
+            style={{ height: "500px" }}
+          >
             <div className="card-body">
               <a href="/">
                 <img src={headerLogo} className="py-2 mx-auto d-block" />
@@ -53,7 +56,10 @@ const LoginPage = () => {
                     />
                   </div>
                   <div className="text-center mt-5">
-                    <Link to={LINKS.DASHBOARD} className="btn btn-primary w-25 ">
+                    <Link
+                      to={LINKS.DASHBOARD}
+                      className="btn btn-primary w-25 "
+                    >
                       Sign In
                     </Link>
                     <p className="my-3 ">

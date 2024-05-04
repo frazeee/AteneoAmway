@@ -6,8 +6,13 @@ body {
   color: white;
 }
 
-.header {
+.header1 {
   font-size: 3.5em !important;
+  text-align: left;
+}
+.header2 {
+  font-size: 3.5em !important;
+  text-align: left;
 }
 
 .subheading {
