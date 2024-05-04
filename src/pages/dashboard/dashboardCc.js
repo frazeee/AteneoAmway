@@ -199,7 +199,7 @@ const DashboardCc = () => {
             <div className="applyhead"> 
             <div>APPLY AS</div>
             <div>CONTENT CREATOR!</div> 
-            
+
             </div>
             <div className="applysub1">Help Amway grow through producing short form content.</div>
             <div className="applysub2">Record a quick video of yourself advertising our products.</div>

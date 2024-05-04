@@ -64,7 +64,7 @@ const educationPage = () => {
               Learn More
             </Link>
           </div>
-        </section>
+        </div>
 
         <section>
           <div className="container ">
