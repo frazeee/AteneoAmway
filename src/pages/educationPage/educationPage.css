@@ -77,3 +77,13 @@ body {
   left: 0;
   z-index: -1;
 }
+.lightnmoneyimg{
+  position: absolute;
+  object-fit: contain;
+  width: 100%;
+  height: 500px;
+  left: 0px;
+}
+.relcon{
+  position: relative;
+}

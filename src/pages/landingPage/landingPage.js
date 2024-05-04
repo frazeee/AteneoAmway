@@ -76,7 +76,7 @@ const LandingPage = () => {
       <div className="container section-spacing">
         <div className="row">
           <div className="col-lg-7 pixdesc">
-            <h1 className="fw-bolder header">START YOUR OWN</h1>
+            <h1 className="fw-bolder header2">START YOUR OWN</h1>
             <div className="mt-3">
               <h5 className="subtitle fw-normal">
                 Amway offers a low-cost, flexible way to start your own
@@ -105,7 +105,7 @@ const LandingPage = () => {
             />
           </div>
           <div className="col-lg-7 pixdesc">
-            <h1 className="fw-bolder header">BECOME AN AMBASSADOR</h1>
+            <h1 className="fw-bolder header2">BECOME AN AMBASSADOR</h1>
             <div className="mt-3">
               <h5 className="subtitle fw-normal">
                 Share your love for Amway products and the opportunity through

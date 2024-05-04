@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import leftImage from "../../images/leftCard.webp";
 import rightImage from "../../images/rightCard.webp";
 import heroBG from "../../images/educationHero.jpg";
+import lightAndMoney from "../../images/lightAndMoney.png";
 
 const educationPage = () => {
   return (
@@ -24,8 +25,9 @@ const educationPage = () => {
         </section>
 
         <section>
-          <div className="container">
-            <div className="row container-spacing">
+          <div className="container ">
+            <div className="row container-spacing relcon">
+            <img src={lightAndMoney} className="lightnmoneyimg"/>
               <div className="col-lg-6 d-flex"></div>
               <div className="col-lg-6 d-flex">
                 <div className="my-auto">
