@@ -194,16 +194,17 @@ const DashboardCc = () => {
         </div>
 
         {/* Content Creator */}
-        <div class="container cardBg my-5">
-          <div class="row my-5">
-            <h1>APPLY AS</h1>
-            <h1>CONTENT CREATOR</h1>
-            <h3>Help Amway grow through</h3>
-            <h3>producing short form content.</h3>
+        <div class="container cardBg my-5 applycont">
+          <div class="row applysubcont">
+            <div className="applyhead"> 
+            <div>APPLY AS</div>
+            <div>CONTENT CREATOR!</div> 
 
-            <h3>Record a quick video of</h3>
-            <h3>yourself advertising our products.</h3>
-            <Link to={LINKS.LANDING} className="btn btn-primary mt-4">
+            </div>
+            <div className="applysub1">Help Amway grow through producing short form content.</div>
+            <div className="applysub2">Record a quick video of yourself advertising our products.</div>
+           
+            <Link to={LINKS.LANDING} className=" btn-primary applybutt">
               Register Now
             </Link>
           </div>
