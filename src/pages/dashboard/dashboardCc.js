@@ -16,6 +16,8 @@ import Product from "../../components/product/Product";
 import garlic from "../../images/garlic.png";
 import glucosamine from "../../images/glucosamine.png";
 import clearGuard from "../../images/clearGuard.png";
+import selfie from "../../images/dashboard/selfie.jpg";
+
 
 import { LINKS } from "../../constants/global-routes";
 import { Link } from "react-router-dom";
